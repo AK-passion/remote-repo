@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_shapes_node.dir/src/turtle_shapes_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_shapes_node[0m
+[100%] Built target turtle_shapes_node
+-- Install configuration: ""
+-- Installing: /home/ak/ros2_ws/install/turtle_shapes/lib/turtle_shapes/turtle_shapes_node
+-- Set runtime path of "/home/ak/ros2_ws/install/turtle_shapes/lib/turtle_shapes/turtle_shapes_node" to ""
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/ament_index/resource_index/package_run_dependencies/turtle_shapes
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/ament_index/resource_index/parent_prefix_path/turtle_shapes
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/path.sh
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/path.dsv
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.bash
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.sh
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.zsh
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.dsv
+-- Installing: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/package.dsv
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/ament_index/resource_index/packages/turtle_shapes
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/cmake/turtle_shapesConfig.cmake
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/cmake/turtle_shapesConfig-version.cmake
+-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/package.xml

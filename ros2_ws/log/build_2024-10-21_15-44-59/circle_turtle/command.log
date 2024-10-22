@@ -1,0 +1,6 @@
+Invoking command in '/home/ak/ros2_ws/build/circle_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ak/ros2_ws/src/circle_turtle -DCMAKE_INSTALL_PREFIX=/home/ak/ros2_ws/install/circle_turtle
+Invoked command in '/home/ak/ros2_ws/build/circle_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ak/ros2_ws/src/circle_turtle -DCMAKE_INSTALL_PREFIX=/home/ak/ros2_ws/install/circle_turtle
+Invoking command in '/home/ak/ros2_ws/build/circle_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ak/ros2_ws/build/circle_turtle -- -j4 -l4
+Invoked command in '/home/ak/ros2_ws/build/circle_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ak/ros2_ws/build/circle_turtle -- -j4 -l4
+Invoking command in '/home/ak/ros2_ws/build/circle_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ak/ros2_ws/build/circle_turtle
+Invoked command in '/home/ak/ros2_ws/build/circle_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ak/ros2_ws/build/circle_turtle

@@ -1,0 +1,3 @@
+/home/ak/VSproject/build/CMakeFiles/t.dir
+/home/ak/VSproject/build/CMakeFiles/edit_cache.dir
+/home/ak/VSproject/build/CMakeFiles/rebuild_cache.dir

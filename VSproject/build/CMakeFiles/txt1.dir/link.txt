@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/txt1.dir/src/02.cpp.o -o txt1 

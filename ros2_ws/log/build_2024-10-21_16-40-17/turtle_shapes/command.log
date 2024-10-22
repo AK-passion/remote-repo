@@ -1,0 +1,2 @@
+Invoking command in '/home/ak/ros2_ws/build/turtle_shapes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ak/ros2_ws/build/turtle_shapes -- -j4 -l4
+Invoked command in '/home/ak/ros2_ws/build/turtle_shapes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ak/ros2_ws/build/turtle_shapes -- -j4 -l4

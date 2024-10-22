@@ -1,0 +1,10 @@
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/uninstall.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/turtle_shapes_uninstall.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/turtle_shapes_node.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/test.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/edit_cache.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/rebuild_cache.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/list_install_components.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/install.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/install/local.dir
+/home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/install/strip.dir

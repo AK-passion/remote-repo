@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_shapes_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_shapes_node.dir/src/turtle_shapes_node.cpp.o[0m
+[01m[K/home/ak/ros2_ws/turtle_shapes/src/turtle_shapes_node.cpp:[m[K In member function ‘[01m[Kvoid TurtleShapes::draw_shapes()[m[K’:
+[01m[K/home/ak/ros2_ws/turtle_shapes/src/turtle_shapes_node.cpp:35:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_[m[K’ was not declared in this scope
+   35 |          if ([01;31m[Kstep_[m[K < 4) {
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/ak/ros2_ws/turtle_shapes/src/turtle_shapes_node.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_count_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_create[m[K’?
+   40 |             [01;31m[Ktimer_count_[m[K++; // 增加计时器
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+      |             [32m[Ktimer_create[m[K
+[01m[K/home/ak/ros2_ws/turtle_shapes/src/turtle_shapes_node.cpp:52:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_count_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_create[m[K’?
+   52 |             if ([01;31m[Ktimer_count_[m[K >= 4) { // 转弯大约需要4个500ms
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                 [32m[Ktimer_create[m[K
+gmake[2]: *** [CMakeFiles/turtle_shapes_node.dir/build.make:76：CMakeFiles/turtle_shapes_node.dir/src/turtle_shapes_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_shapes_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
