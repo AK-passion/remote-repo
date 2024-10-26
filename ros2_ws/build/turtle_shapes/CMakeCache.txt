@@ -503,7 +503,7 @@ turtle_shapes_BINARY_DIR:STATIC=/home/ak/ros2_ws/build/turtle_shapes
 turtle_shapes_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-turtle_shapes_SOURCE_DIR:STATIC=/home/ak/ros2_ws/turtle_shapes
+turtle_shapes_SOURCE_DIR:STATIC=/home/ak/ros2_ws/src/turtle_shapes
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -600,7 +600,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ak/ros2_ws/turtle_shapes
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ak/ros2_ws/src/turtle_shapes
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

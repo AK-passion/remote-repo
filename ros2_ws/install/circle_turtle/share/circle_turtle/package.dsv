@@ -1,8 +1,0 @@
-source;share/circle_turtle/hook/cmake_prefix_path.ps1
-source;share/circle_turtle/hook/cmake_prefix_path.dsv
-source;share/circle_turtle/hook/cmake_prefix_path.sh
-source;share/circle_turtle/local_setup.bash
-source;share/circle_turtle/local_setup.dsv
-source;share/circle_turtle/local_setup.ps1
-source;share/circle_turtle/local_setup.sh
-source;share/circle_turtle/local_setup.zsh

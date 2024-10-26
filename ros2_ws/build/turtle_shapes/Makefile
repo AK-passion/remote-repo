@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ak/ros2_ws/turtle_shapes
+CMAKE_SOURCE_DIR = /home/ak/ros2_ws/src/turtle_shapes
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ak/ros2_ws/build/turtle_shapes
@@ -198,41 +198,41 @@ turtle_shapes_uninstall/fast:
 .PHONY : turtle_shapes_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named turtle_shapes_node
+# Target rules for targets named my_node
 
 # Build rule for target.
-turtle_shapes_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_shapes_node
-.PHONY : turtle_shapes_node
+my_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_node
+.PHONY : my_node
 
 # fast build rule for target.
-turtle_shapes_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_shapes_node.dir/build.make CMakeFiles/turtle_shapes_node.dir/build
-.PHONY : turtle_shapes_node/fast
+my_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/build
+.PHONY : my_node/fast
 
-src/turtle_shapes_node.o: src/turtle_shapes_node.cpp.o
-.PHONY : src/turtle_shapes_node.o
+src/my_node.o: src/my_node.cpp.o
+.PHONY : src/my_node.o
 
 # target to build an object file
-src/turtle_shapes_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_shapes_node.dir/build.make CMakeFiles/turtle_shapes_node.dir/src/turtle_shapes_node.cpp.o
-.PHONY : src/turtle_shapes_node.cpp.o
+src/my_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/src/my_node.cpp.o
+.PHONY : src/my_node.cpp.o
 
-src/turtle_shapes_node.i: src/turtle_shapes_node.cpp.i
-.PHONY : src/turtle_shapes_node.i
+src/my_node.i: src/my_node.cpp.i
+.PHONY : src/my_node.i
 
 # target to preprocess a source file
-src/turtle_shapes_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_shapes_node.dir/build.make CMakeFiles/turtle_shapes_node.dir/src/turtle_shapes_node.cpp.i
-.PHONY : src/turtle_shapes_node.cpp.i
+src/my_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/src/my_node.cpp.i
+.PHONY : src/my_node.cpp.i
 
-src/turtle_shapes_node.s: src/turtle_shapes_node.cpp.s
-.PHONY : src/turtle_shapes_node.s
+src/my_node.s: src/my_node.cpp.s
+.PHONY : src/my_node.s
 
 # target to generate assembly for a file
-src/turtle_shapes_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_shapes_node.dir/build.make CMakeFiles/turtle_shapes_node.dir/src/turtle_shapes_node.cpp.s
-.PHONY : src/turtle_shapes_node.cpp.s
+src/my_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/src/my_node.cpp.s
+.PHONY : src/my_node.cpp.s
 
 # Help Target
 help:
@@ -249,10 +249,10 @@ help:
 	@echo "... test"
 	@echo "... turtle_shapes_uninstall"
 	@echo "... uninstall"
-	@echo "... turtle_shapes_node"
-	@echo "... src/turtle_shapes_node.o"
-	@echo "... src/turtle_shapes_node.i"
-	@echo "... src/turtle_shapes_node.s"
+	@echo "... my_node"
+	@echo "... src/my_node.o"
+	@echo "... src/my_node.i"
+	@echo "... src/my_node.s"
 .PHONY : help
 
 

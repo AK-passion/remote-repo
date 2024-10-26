@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000417] (turtle_shapes) JobQueued: {'identifier': 'turtle_shapes', 'dependencies': OrderedDict()}
+[0.000459] (turtle_shapes) JobStarted: {'identifier': 'turtle_shapes'}
+[0.006684] (turtle_shapes) JobProgress: {'identifier': 'turtle_shapes', 'progress': 'cmake'}
+[0.007211] (turtle_shapes) JobProgress: {'identifier': 'turtle_shapes', 'progress': 'build'}
+[0.007639] (turtle_shapes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ak/ros2_ws/build/turtle_shapes', '--', '-j4', '-l4'], 'cwd': '/home/ak/ros2_ws/build/turtle_shapes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ak'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ak'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ak/ros2_ws/src/turtle_shapes/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ak'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ak'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ak-virtual-machine:@/tmp/.ICE-unix/1433,unix/ak-virtual-machine:/tmp/.ICE-unix/1433'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/acb93b6e_9074_4857_b0ae_2cad8b12be71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2d03db35a0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ak/ros2_ws/build/turtle_shapes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024526] (turtle_shapes) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.101014] (-) TimerEvent: {}
+[0.106500] (turtle_shapes) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.128123] (turtle_shapes) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.129657] (turtle_shapes) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.133090] (turtle_shapes) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.138373] (turtle_shapes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.147345] (turtle_shapes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.169393] (turtle_shapes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.170107] (turtle_shapes) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.201692] (-) TimerEvent: {}
+[0.229016] (turtle_shapes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.262853] (turtle_shapes) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.276357] (turtle_shapes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.302092] (-) TimerEvent: {}
+[0.320836] (turtle_shapes) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.320988] (turtle_shapes) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.321024] (turtle_shapes) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.321625] (turtle_shapes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.321741] (turtle_shapes) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.321777] (turtle_shapes) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.322245] (turtle_shapes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.322329] (turtle_shapes) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.329515] (turtle_shapes) StdoutLine: {'line': b'-- Generating done\n'}
+[0.331032] (turtle_shapes) StdoutLine: {'line': b'-- Build files have been written to: /home/ak/ros2_ws/build/turtle_shapes\n'}
+[0.349831] (turtle_shapes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[0.355831] (turtle_shapes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.402350] (-) TimerEvent: {}
+[0.502799] (-) TimerEvent: {}
+[0.603516] (-) TimerEvent: {}
+[0.703915] (-) TimerEvent: {}
+[0.804288] (-) TimerEvent: {}
+[0.905079] (-) TimerEvent: {}
+[1.006192] (-) TimerEvent: {}
+[1.106844] (-) TimerEvent: {}
+[1.208160] (-) TimerEvent: {}
+[1.308919] (-) TimerEvent: {}
+[1.409971] (-) TimerEvent: {}
+[1.510729] (-) TimerEvent: {}
+[1.611196] (-) TimerEvent: {}
+[1.711678] (-) TimerEvent: {}
+[1.812593] (-) TimerEvent: {}
+[1.913104] (-) TimerEvent: {}
+[2.013994] (-) TimerEvent: {}
+[2.114476] (-) TimerEvent: {}
+[2.214902] (-) TimerEvent: {}
+[2.315617] (-) TimerEvent: {}
+[2.415959] (-) TimerEvent: {}
+[2.516560] (-) TimerEvent: {}
+[2.617100] (-) TimerEvent: {}
+[2.718252] (-) TimerEvent: {}
+[2.818779] (-) TimerEvent: {}
+[2.919544] (-) TimerEvent: {}
+[3.019966] (-) TimerEvent: {}
+[3.120764] (-) TimerEvent: {}
+[3.182860] (turtle_shapes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[3.221105] (-) TimerEvent: {}
+[3.327713] (-) TimerEvent: {}
+[3.345707] (turtle_shapes) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[3.354589] (turtle_shapes) CommandEnded: {'returncode': 0}
+[3.372187] (turtle_shapes) JobProgress: {'identifier': 'turtle_shapes', 'progress': 'install'}
+[3.379359] (turtle_shapes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ak/ros2_ws/build/turtle_shapes'], 'cwd': '/home/ak/ros2_ws/build/turtle_shapes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ak'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ak'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ak/ros2_ws/src/turtle_shapes/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ak'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ak'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ak-virtual-machine:@/tmp/.ICE-unix/1433,unix/ak-virtual-machine:/tmp/.ICE-unix/1433'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/acb93b6e_9074_4857_b0ae_2cad8b12be71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2d03db35a0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ak/ros2_ws/build/turtle_shapes'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.382943] (turtle_shapes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.383120] (turtle_shapes) StdoutLine: {'line': b'-- Installing: /home/ak/ros2_ws/install/turtle_shapes/lib/turtle_shapes/my_node\n'}
+[3.383963] (turtle_shapes) StdoutLine: {'line': b'-- Set runtime path of "/home/ak/ros2_ws/install/turtle_shapes/lib/turtle_shapes/my_node" to ""\n'}
+[3.384091] (turtle_shapes) StdoutLine: {'line': b'-- Installing: /home/ak/ros2_ws/install/turtle_shapes/share/ament_index/resource_index/package_run_dependencies/turtle_shapes\n'}
+[3.384240] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/ament_index/resource_index/parent_prefix_path/turtle_shapes\n'}
+[3.384480] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/ament_prefix_path.sh\n'}
+[3.384516] (turtle_shapes) StdoutLine: {'line': b'-- Installing: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/ament_prefix_path.dsv\n'}
+[3.384546] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/path.sh\n'}
+[3.384574] (turtle_shapes) StdoutLine: {'line': b'-- Installing: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/environment/path.dsv\n'}
+[3.384600] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.bash\n'}
+[3.384625] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.sh\n'}
+[3.384651] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.zsh\n'}
+[3.384676] (turtle_shapes) StdoutLine: {'line': b'-- Installing: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/local_setup.dsv\n'}
+[3.384700] (turtle_shapes) StdoutLine: {'line': b'-- Installing: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/package.dsv\n'}
+[3.384724] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/ament_index/resource_index/packages/turtle_shapes\n'}
+[3.384750] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/cmake/turtle_shapesConfig.cmake\n'}
+[3.384782] (turtle_shapes) StdoutLine: {'line': b'-- Up-to-date: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/cmake/turtle_shapesConfig-version.cmake\n'}
+[3.384808] (turtle_shapes) StdoutLine: {'line': b'-- Installing: /home/ak/ros2_ws/install/turtle_shapes/share/turtle_shapes/package.xml\n'}
+[3.385916] (turtle_shapes) CommandEnded: {'returncode': 0}
+[3.414652] (turtle_shapes) JobEnded: {'identifier': 'turtle_shapes', 'rc': 0}
+[3.415429] (-) EventReactorShutdown: {}

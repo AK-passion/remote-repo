@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ak/ros2_ws/turtle_shapes
+CMAKE_SOURCE_DIR = /home/ak/ros2_ws/src/turtle_shapes
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ak/ros2_ws/build/turtle_shapes
@@ -82,6 +82,6 @@ CMakeFiles/turtle_shapes_uninstall.dir/clean:
 .PHONY : CMakeFiles/turtle_shapes_uninstall.dir/clean
 
 CMakeFiles/turtle_shapes_uninstall.dir/depend:
-	cd /home/ak/ros2_ws/build/turtle_shapes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ak/ros2_ws/turtle_shapes /home/ak/ros2_ws/turtle_shapes /home/ak/ros2_ws/build/turtle_shapes /home/ak/ros2_ws/build/turtle_shapes /home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/turtle_shapes_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ak/ros2_ws/build/turtle_shapes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ak/ros2_ws/src/turtle_shapes /home/ak/ros2_ws/src/turtle_shapes /home/ak/ros2_ws/build/turtle_shapes /home/ak/ros2_ws/build/turtle_shapes /home/ak/ros2_ws/build/turtle_shapes/CMakeFiles/turtle_shapes_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtle_shapes_uninstall.dir/depend
 

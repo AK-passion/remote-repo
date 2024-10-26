@@ -1,0 +1,81 @@
+[0.010s] Invoking command in '/home/ak/ros2_ws/build/turtle_shapes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ak/ros2_ws/build/turtle_shapes -- -j4 -l4
+[0.029s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.121s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.122s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.126s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.161s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.161s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.245s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.291s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.291s] -- Configured cppcheck include dirs: 
+[0.291s] -- Configured cppcheck exclude dirs and/or files: 
+[0.292s] -- Added test 'lint_cmake' to check CMake code style
+[0.292s] -- Added test 'uncrustify' to check C / C++ code style
+[0.292s] -- Configured uncrustify additional arguments: 
+[0.292s] -- Added test 'xmllint' to check XML markup files
+[0.293s] -- Configuring done
+[0.298s] -- Generating done
+[0.299s] -- Build files have been written to: /home/ak/ros2_ws/build/turtle_shapes
+[0.322s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.345s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:[m[K In function ‘[01m[Kvoid draw_shapes()[m[K’:
+[0.345s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:3:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[0.345s]     3 |     auto turtle1_msg = [01;31m[Kgeometry_msgs[m[K::msg::Twist();
+[0.345s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[0.346s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:4:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[0.346s]     4 |     auto turtle2_msg = [01;31m[Kgeometry_msgs[m[K::msg::Twist();
+[0.346s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[0.346s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1_pub_[m[K’ was not declared in this scope
+[0.347s]     9 |     [01;31m[Kturtle1_pub_[m[K->publish(turtle1_msg);
+[0.347s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[0.348s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstep_[m[K’ was not declared in this scope
+[0.348s]    12 |     if ([01;31m[Kstep_[m[K < 8) {  // 每条边和每次转弯都计算一次，总共8个步骤
+[0.348s]       |         [01;31m[K^~~~~[m[K
+[0.348s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_count_[m[K’ was not declared in this scope
+[0.349s]    17 |             [01;31m[Ktimer_count_[m[K++; // 增加计时器
+[0.349s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[0.349s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_count_[m[K’ was not declared in this scope
+[0.349s]    30 |             [01;31m[Ktimer_count_[m[K++; // 增加计时器
+[0.349s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[0.349s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle2_pub_[m[K’ was not declared in this scope
+[0.349s]    43 |     [01;31m[Kturtle2_pub_[m[K->publish(turtle2_msg);
+[0.349s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[0.349s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:[m[K At global scope:
+[0.349s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:47:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.349s]    47 | [01;31m[Krclcpp[m[K::Publisher<geometry_msgs::msg::Twist>::SharedPtr turtle2_pub_;
+[0.349s]       | [01;31m[K^~~~~~[m[K
+[0.349s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[0.349s]    48 |     [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+[0.349s]       |     [01;31m[K^~~~~~[m[K
+[0.349s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:51:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[0.349s]    51 | [01;31m[K}[m[K;
+[0.349s]       | [01;31m[K^[m[K
+[0.350s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.350s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.350s]    54 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.351s]       |     [01;31m[K^~~~~~[m[K
+[0.351s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:55:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.351s]    55 |     auto node = std::[01;31m[Kmake_shared[m[K<TurtleSquare>();
+[0.351s]       |                      [01;31m[K^~~~~~~~~~~[m[K
+[0.351s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.351s]   +++ |+[32m[K#include <memory>[m[K
+[0.351s]     1 | void draw_shapes()
+[0.351s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:55:34:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtleSquare[m[K’ was not declared in this scope
+[0.351s]    55 |     auto node = std::make_shared<[01;31m[KTurtleSquare[m[K>();
+[0.351s]       |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[0.351s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:55:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.351s]    55 |     auto node = std::make_shared<TurtleSquare>([01;31m[K)[m[K;
+[0.351s]       |                                                [01;31m[K^[m[K
+[0.351s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.351s]    56 |     [01;31m[Krclcpp[m[K::spin(node);
+[0.351s]       |     [01;31m[K^~~~~~[m[K
+[0.351s] [01m[K/home/ak/ros2_ws/src/turtle_shapes/src/my_node.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.352s]    57 |     [01;31m[Krclcpp[m[K::shutdown();
+[0.352s]       |     [01;31m[K^~~~~~[m[K
+[0.352s] gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76：CMakeFiles/my_node.dir/src/my_node.cpp.o] 错误 1
+[0.352s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/my_node.dir/all] 错误 2
+[0.352s] gmake: *** [Makefile:146：all] 错误 2
+[0.353s] Invoked command in '/home/ak/ros2_ws/build/turtle_shapes' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ak/ros2_ws/build/turtle_shapes -- -j4 -l4
